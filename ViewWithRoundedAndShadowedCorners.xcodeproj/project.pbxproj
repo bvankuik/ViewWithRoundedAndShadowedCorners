@@ -40,7 +40,7 @@
 		89167370211AE3FC00260DE9 = {
 			isa = PBXGroup;
 			children = (
-				8916737B211AE3FC00260DE9 /* CustomViewWithShadow */,
+				8916737B211AE3FC00260DE9 /* ViewWithRoundedAndShadowedCorners */,
 				8916737A211AE3FC00260DE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8916737B211AE3FC00260DE9 /* CustomViewWithShadow */ = {
+		8916737B211AE3FC00260DE9 /* ViewWithRoundedAndShadowedCorners */ = {
 			isa = PBXGroup;
 			children = (
 				8916737C211AE3FC00260DE9 /* AppDelegate.swift */,
@@ -64,7 +64,7 @@
 				89167388211AE3FF00260DE9 /* Info.plist */,
 				8916738E211AE40E00260DE9 /* ViewWithRoundedAndShadowedCorners.swift */,
 			);
-			path = CustomViewWithShadow;
+			path = ViewWithRoundedAndShadowedCorners;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +291,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchvirtual.CustomViewWithShadow;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchvirtual.ViewWithRoundedAndShadowedCorners;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +309,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchvirtual.CustomViewWithShadow;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchvirtual.ViewWithRoundedAndShadowedCorners;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
