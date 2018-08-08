@@ -12,18 +12,18 @@
 		89167382211AE3FC00260DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89167380211AE3FC00260DE9 /* Main.storyboard */; };
 		89167384211AE3FF00260DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89167383211AE3FF00260DE9 /* Assets.xcassets */; };
 		89167387211AE3FF00260DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89167385211AE3FF00260DE9 /* LaunchScreen.storyboard */; };
-		8916738F211AE40E00260DE9 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8916738E211AE40E00260DE9 /* CustomView.swift */; };
+		8916738F211AE40E00260DE9 /* ViewWithRoundedAndShadowedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8916738E211AE40E00260DE9 /* ViewWithRoundedAndShadowedCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		89167379211AE3FC00260DE9 /* CustomViewWithShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomViewWithShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89167379211AE3FC00260DE9 /* ViewWithRoundedAndShadowedCorners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewWithRoundedAndShadowedCorners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8916737C211AE3FC00260DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8916737E211AE3FC00260DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89167381211AE3FC00260DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89167383211AE3FF00260DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89167386211AE3FF00260DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89167388211AE3FF00260DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8916738E211AE40E00260DE9 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		8916738E211AE40E00260DE9 /* ViewWithRoundedAndShadowedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithRoundedAndShadowedCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		8916737A211AE3FC00260DE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89167379211AE3FC00260DE9 /* CustomViewWithShadow.app */,
+				89167379211AE3FC00260DE9 /* ViewWithRoundedAndShadowedCorners.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,7 +62,7 @@
 				89167383211AE3FF00260DE9 /* Assets.xcassets */,
 				89167385211AE3FF00260DE9 /* LaunchScreen.storyboard */,
 				89167388211AE3FF00260DE9 /* Info.plist */,
-				8916738E211AE40E00260DE9 /* CustomView.swift */,
+				8916738E211AE40E00260DE9 /* ViewWithRoundedAndShadowedCorners.swift */,
 			);
 			path = CustomViewWithShadow;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89167378211AE3FC00260DE9 /* CustomViewWithShadow */ = {
+		89167378211AE3FC00260DE9 /* ViewWithRoundedAndShadowedCorners */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8916738B211AE3FF00260DE9 /* Build configuration list for PBXNativeTarget "CustomViewWithShadow" */;
+			buildConfigurationList = 8916738B211AE3FF00260DE9 /* Build configuration list for PBXNativeTarget "ViewWithRoundedAndShadowedCorners" */;
 			buildPhases = (
 				89167375211AE3FC00260DE9 /* Sources */,
 				89167376211AE3FC00260DE9 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = CustomViewWithShadow;
+			name = ViewWithRoundedAndShadowedCorners;
 			productName = CustomViewWithShadow;
-			productReference = 89167379211AE3FC00260DE9 /* CustomViewWithShadow.app */;
+			productReference = 89167379211AE3FC00260DE9 /* ViewWithRoundedAndShadowedCorners.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89167374211AE3FC00260DE9 /* Build configuration list for PBXProject "CustomViewWithShadow" */;
+			buildConfigurationList = 89167374211AE3FC00260DE9 /* Build configuration list for PBXProject "ViewWithRoundedAndShadowedCorners" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89167378211AE3FC00260DE9 /* CustomViewWithShadow */,
+				89167378211AE3FC00260DE9 /* ViewWithRoundedAndShadowedCorners */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8916738F211AE40E00260DE9 /* CustomView.swift in Sources */,
+				8916738F211AE40E00260DE9 /* ViewWithRoundedAndShadowedCorners.swift in Sources */,
 				8916737F211AE3FC00260DE9 /* ViewController.swift in Sources */,
 				8916737D211AE3FC00260DE9 /* AppDelegate.swift in Sources */,
 			);
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89167374211AE3FC00260DE9 /* Build configuration list for PBXProject "CustomViewWithShadow" */ = {
+		89167374211AE3FC00260DE9 /* Build configuration list for PBXProject "ViewWithRoundedAndShadowedCorners" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89167389211AE3FF00260DE9 /* Debug */,
@@ -328,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8916738B211AE3FF00260DE9 /* Build configuration list for PBXNativeTarget "CustomViewWithShadow" */ = {
+		8916738B211AE3FF00260DE9 /* Build configuration list for PBXNativeTarget "ViewWithRoundedAndShadowedCorners" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8916738C211AE3FF00260DE9 /* Debug */,

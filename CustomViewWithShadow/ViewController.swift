@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        let customView = CustomView()
+        let customView = ViewWithRoundedAndShadowedCorners()
         customView.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(customView)
         
