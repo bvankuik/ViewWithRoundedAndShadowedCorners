@@ -11,15 +11,16 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let customView = CustomView()
+        customView.translatesAutoresizingMaskIntoConstraints = false
+        self.view.addSubview(customView)
+        
+        let constraints = [
+            customView.widthAnchor.constraint(equalToConstant: 250),
+            customView.heightAnchor.constraint(equalToConstant: 100),
+            customView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+            customView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
+        ]
+        self.view.addConstraints(constraints)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-
